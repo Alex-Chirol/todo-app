@@ -1,0 +1,12 @@
+.task {
+    margin-top: 20px;
+
+    &__item {
+        padding: 20px 0;
+        width: 400px;
+        background-color: rgb(59, 59, 59);
+        color: white;
+        margin: 20px auto;
+        border-radius: 50px;
+    }
+}

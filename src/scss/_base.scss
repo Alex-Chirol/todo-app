@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+  }
+
+.App {
+    text-align: center;
+    .title {
+        margin: 15px 0;
+    }
+    .input {
+        margin-right: 10px;
+        padding-left: 20px;
+        height: 30px;
+        width: 200px;
+        border: none;
+        border-radius: 20px;
+        background-color: lightgray;
+    }
+    .button {
+        height: 30px;
+        width: 80px;
+        border: none;
+        border-radius: 20px;
+        background-color: rgb(59, 59, 59);
+        color: white;
+    }
+    .button:hover {
+        cursor: pointer;
+        background-color: white;
+        color: black;
+        border: solid 2px rgb(59, 59, 59);
+    }
+}
